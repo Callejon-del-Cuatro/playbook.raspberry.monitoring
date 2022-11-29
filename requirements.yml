@@ -2,4 +2,4 @@
 roles:
   - src: https://github.com/Callejon-del-Cuatro/role.raspberry.getdata
     version: master
-    name: raspberry.getdata
+    name: role.raspberry.getdata
