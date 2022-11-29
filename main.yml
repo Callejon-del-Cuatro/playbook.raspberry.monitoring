@@ -4,7 +4,7 @@
   tasks:
     - name: Get Data Raspberry
       include_role:
-        name: raspberry.getdata
+        name: role.raspberry.getdata
 
 
 #   - name: "Save in DDBB"
