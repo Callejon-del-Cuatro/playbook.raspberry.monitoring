@@ -1,0 +1,15 @@
+---
+- name: Get Temperature of the VM and save in a DB
+  hosts: localhost
+  tasks:
+    - name: Get Data Raspberry
+      include_role:
+        name: raspberry.getdata
+
+
+#   - name: "Save in DDBB"
+#     community.mysql.mysql_query:
+#       login_db: monitoringdb
+#       login_user: monitoring_user
+#       login_password: "{{ login_password }}"
+#       query: INSERT INTO monitoring_temp (datetime, hostname, ip, temp) VALUES (now(), 'adarga', '192.168.1.39', {{ temp }})

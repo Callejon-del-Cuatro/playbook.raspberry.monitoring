@@ -1,0 +1,5 @@
+---
+roles:
+  - src: https://github.com/Callejon-del-Cuatro/raspberry.getdata
+    version: master
+    name: raspberry.getdata
